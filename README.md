@@ -15,7 +15,7 @@ WN11 is a dataset for triple classification, each line contains a triple and a l
 Run
 
 
-link prediction task
+(1)link prediction task
 
 
 python trainGan.py --embeddingname TransH --gname Translation --dname ConvE
@@ -36,7 +36,7 @@ gname: Translation, FC, ConvE, ConvTransE
 dname: Translation, FC, Conv
 
 
-triple classification task
+(2)triple classification task
 
 
 python trainTripleClassification.py --embeddingname TransH --gname Translation --dname ConvE
